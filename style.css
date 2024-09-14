@@ -1,0 +1,229 @@
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-family: 'Arial', sans-serif;
+     background-color: #0A0743;
+     color: #fff;
+     line-height: 1.6;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: inherit;
+ }
+ 
+ 
+ /* Layout principal */
+ .container {
+     width: 90%;
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 20px 0;
+     text-align: center;
+ }
+ 
+
+
+ /* Cabeçalho */
+ header {
+     padding: 20px 0;
+ }
+ 
+ header .logo {
+     max-width: 150px;
+     margin-bottom: 20px;
+ }
+ 
+ .nav {
+     display: flex;
+     justify-content: flex-end;
+ }
+ 
+ .nav ul {
+     list-style: none;
+     display: flex;
+     gap: 20px;
+ }
+ 
+ .nav ul li a {
+     color: #fff;
+     font-weight: bold;
+     padding: 10px;
+     transition: color 0.3s ease;
+ }
+ 
+ .nav ul li a:hover {
+     color: #0078FF;
+ }
+ 
+
+
+ /* Seção Banner */
+ .banner {
+     padding: 80px 0;
+     background: linear-gradient(145deg, #0A0743, #1A1A6B);
+     color: #fff;
+ }
+ 
+ .banner h1 {
+     font-size: 48px;
+     margin-bottom: 20px;
+ }
+ 
+ .banner p {
+     font-size: 18px;
+     margin-bottom: 30px;
+ }
+ 
+ .banner a {
+     background-color: #0078FF;
+     padding: 12px 30px;
+     color: #fff;
+     border-radius: 5px;
+     font-weight: bold;
+     transition: background 0.3s ease;
+ }
+ 
+ .banner a:hover {
+     background-color: #005BB5;
+ }
+ 
+
+
+ /* Seção de Serviços */
+ .section {
+     padding: 80px 0;
+ }
+ 
+ .section.light {
+     background-color: #fff;
+     color: #0A0743;
+ }
+ 
+ .section.dark {
+     background-color: #0A0743;
+     color: #fff;
+ }
+ 
+ .section h2 {
+     font-size: 32px;
+     margin-bottom: 20px;
+ }
+ 
+ .service-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     gap: 20px;
+ }
+ 
+ .service-box {
+     background-color: #fff;
+     color: #0A0743;
+     border-radius: 10px;
+     padding: 30px;
+     text-align: center;
+     transition: transform 0.3s ease;
+ }
+ 
+ .service-box:hover {
+     transform: translateY(-5px);
+ }
+ 
+ .service-box img {
+     max-width: 100px;
+     margin-bottom: 15px;
+ }
+ 
+ .service-box h3 {
+     font-size: 22px;
+     margin-bottom: 10px;
+ }
+
+ 
+ /* Seção 'Por que escolher' */
+ .porque {
+     padding: 80px 0;
+     background-color: #F1F1F1;
+     color: #0A0743;
+     text-align: center;
+ }
+ 
+ .porque-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     gap: 20px;
+ }
+ 
+ .porque-box {
+     background-color: #fff;
+     border-radius: 10px;
+     padding: 30px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .porque-box h3 {
+     font-size: 24px;
+     margin-bottom: 15px;
+ }
+ 
+
+
+ /* Formulário de contato */
+ .contato {
+     padding: 50px 0;
+     background-color: #0A0743;
+     color: #fff;
+ }
+ 
+ .form-principal {
+     max-width: 600px;
+     margin: 0 auto;
+ }
+ 
+ .form-principal input,
+ .form-principal textarea {
+     width: 100%;
+     padding: 15px;
+     margin-bottom: 15px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     font-size: 16px;
+     color: #333;
+ }
+ 
+ .form-principal input:focus,
+ .form-principal textarea:focus {
+     outline: none;
+     border-color: #0078FF;
+ }
+ 
+ .form-principal .enviar {
+     background-color: #0078FF;
+     color: #fff;
+     padding: 12px 30px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background 0.3s ease;
+ }
+ 
+ .form-principal .enviar:hover {
+     background-color: #005BB5;
+ }
+ 
+
+
+ /* Rodapé */
+ footer {
+     background-color: #0A0743;
+     padding: 20px 0;
+     color: #fff;
+     text-align: center;
+     font-size: 14px;
+ }
+ 
